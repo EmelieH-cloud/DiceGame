@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,6 +9,26 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-	<script src="index.js"></script>
+    <h1 id="header">MYTHBUSTERS UNITE</h1>
+    <button onclick="animateMySquare()">Roll the dice!</button>
+    <div class="JustaSquare" id="myDiv"></div>
+    <p id="instruction">Once the dice turns into a color, it's your job
+       to as quickly as possible reveal the truth regarding this color!</p>
+
+        <button id="first" data-action="one">1</button>
+        <button id="scnd" data-action="two">2</button>
+        <button id="thrd" data-action="three">3</button>
+        <button id="frth" data-action="four">4</button>
+        
+      <div>
+        <p id="one">1</p>
+        <p id="two">2</p>
+        <p id="three">3</p>
+        <p id="four">4</p>
+      </div>
+
+      <button id="reset" onclick="reset()">Play again</button>
+
+	<script src="script.js"></script>
   </body>
 </html>

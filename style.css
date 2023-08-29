@@ -1,1 +1,174 @@
+.AnimateSquare
+{
+    display: inline-block;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    font-size: 1px;
+    padding: 1px;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    animation: roll 3s;
+    opacity: .7;
+  }
 
+  .red
+  {
+    background-color: red;
+    transition: all 3s ease-in; 
+  }
+
+  .blue
+  {
+    background-color: blue;
+    transition: all 3s ease-in; 
+  }
+
+  .green
+  {
+    background-color: green;
+    transition: all 3s ease-in; 
+  }
+
+  .JustaSquare
+  {
+    display: inline-block;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    font-size: 1px;
+    padding: 1px;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  @keyframes roll
+   {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  body, html {
+    height: 100%;
+  }
+  
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button
+  {
+    position: absolute; 
+    top: 20%; 
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: 'Amatic SC';
+    border-radius: 20px; 
+    cursor: pointer; 
+  }
+
+  h1
+  {
+    position: absolute; 
+    top: 5%; 
+    font-size: 3.2em;
+    font-family: 'Amatic SC';
+  }
+
+  p
+  {
+    position: absolute; 
+    bottom: 14%; 
+    font-weight: 800;
+    font-family: 'Amatic SC';
+    font-size: 2.2em;
+  }
+
+ #one
+  {
+    position: absolute;
+    top: 30%;
+    left: 10%; 
+  
+  }
+  #two
+  {
+    position: absolute;
+    top: 50%;
+    left: 10%; 
+   
+   
+  }
+  #three
+  {
+    position: absolute;
+    top: 1%;
+    right: 10%; 
+    
+  
+  }
+  #four
+  {
+    position: absolute;
+    top: 40%;
+    right: 10%; 
+ 
+  }
+
+  .fadeInstruction
+  {
+    color: white; 
+    transition: all 2.3s ease-in; 
+  }
+
+#first
+{
+    position: absolute; 
+    top: 82%; 
+    left: 40%;
+    width: 4%; 
+    height: 10%; 
+}
+
+#scnd
+{
+    position: absolute; 
+    top: 82%; 
+    left: 45%; 
+    height: 10%; 
+    width: 4%; 
+}
+
+#thrd
+{
+    position: absolute; 
+    top: 82%; 
+    left: 50%;
+    height: 10%; 
+    width: 4%; 
+}
+
+#frth
+{
+    position: absolute; 
+    top: 82%; 
+    left: 55%; 
+    width: 4%; 
+    height: 10%; 
+}
+
+#reset
+{
+    top: 1%; 
+    right: 70%; 
+}
